@@ -1,6 +1,6 @@
 FROM golang:1.11
 
-WORKDIR /go/src/gitlab.com/cfilby/go-short
+WORKDIR /go/src/github.com/Samantha-Grace/golangTwo
 COPY . .
 
 RUN go install
