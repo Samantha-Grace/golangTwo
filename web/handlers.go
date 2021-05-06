@@ -4,6 +4,9 @@ import (
 	"fmt"
 	"html/template"
 	"net/http"
+
+	"github.com/Samantha-Grace/golangTwo/shortener"
+	"github.com/Samantha-Grace/golangTwo/storage"
 )
 
 var tmpl = template.Must(template.ParseGlob("views/*.html"))
